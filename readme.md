@@ -1,7 +1,7 @@
 
 ### The Results
-
 Once you've gone through all of the steps correctly, and opened your new `HTML` file, it should look something like;
+
 ![image](https://cdn.discordapp.com/attachments/1021675456715563058/1024439017049174126/image.png)
 
 
