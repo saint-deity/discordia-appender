@@ -40,4 +40,4 @@ The only supported method would be to provide a [`decoded`](https://luvit.io/api
 ```
 
 
-[![image][https://i.ibb.co/mRFbqGK/image.png]]
+[image](https://i.ibb.co/mRFbqGK/image.png)
