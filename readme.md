@@ -31,9 +31,10 @@ The only supported method would be to provide a [`decoded`](https://luvit.io/api
 ```lua
 {
     {
-        username = "Deity#1501",
-        avatar_url = "https://cdn.discordapp.com/avatars/748164832028655717/a_bebf8f9577f7e2697cd1db2ef820e325.webp",
+        username = "Ken and Richie#8601",
+        avatar_url = "https://cdn.discordapp.com/avatars/1023482322890281042/4fb15c961276e9c8e5b35603d266c756.webp?size=240",
         content = "Hello, world!",
-        timestamp = "27/09/2022",
+        timestamp = "01/01/1970 ",
     },
 }
+```
