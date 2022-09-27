@@ -1,4 +1,10 @@
 
+### The Results
+
+Once you're done, and you've opened your new `HTML` file, the result should look something similar to this:
+![image](https://cdn.discordapp.com/attachments/1021675456715563058/1024439017049174126/image.png)
+
+
 ### [`discordia-appender`](https://github.com/saint-deity/discordia-appender) is a small [`lib`](https://www.idtech.com/blog/what-are-libraries-in-coding#:~:text=Programming%20library%20definition%20Libraries%20in%20programming%20languages%20are,users%20can%20use%20to%20optimize%20tasks.%20Library%20examples) made in lua for the [`lit/luvit`](https://luvit.io/) runtime environment.
 
 This library depends on the [`JSON`](https://luvit.io/api/json.html) and [`PrettyPrint`](https://luvit.io/api/pretty-print.html) [`luvit`](https://luvit.io/) libraries to run.
@@ -59,9 +65,3 @@ append:write("./file_path", data)
 
 ### Make sure to include your file name and file extension `(*HTML)` when using the `read()` and `write()` methods
 ### Refer to the examples folder for reference and ideas
-
-
-### The Results
-
-Once you're done, and you've opened your new `HTML` file, the result should look something similar to this:
-![image](https://cdn.discordapp.com/attachments/1021675456715563058/1024439017049174126/image.png)
