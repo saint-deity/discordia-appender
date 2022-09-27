@@ -9,14 +9,31 @@ To get started with using this library you should:
 - Unzip the contents and delete the [`README.md`](https://github.com/saint-deity/discordia-appender/blob/main/readme.md)
 - Place the [`discordia-appender`](https://github.com/saint-deity/discordia-appender/tree/main/discordia-appender) file in your workspaces' `deps` folder.
 
-### Setting it up
+### Setting Up
+
 Setting it up using [`require`](https://luvit.io/api/require.html) and fetching the [`append`](https://github.com/saint-deity/discordia-appender/blob/main/discordia-appender/init.lua) configuration are the first two steps toward using the now-ready appender.
+
 ```lua
 local appender = require("discordia-appender")
 local append = appender.append
 ```
 
 Alternatively, you can just jump the gun and do:
+
 ```lua
 local append = require("discordia-appender").append
 ```
+
+### Providing Data
+
+The only supported method would be to provide a [`decoded`](https://luvit.io/api/json.html#json_json_decode_str_pos_nullval) [`JSON`](https://luvit.io/api/json.html) table. Here is an example of how it should look:
+
+```lua
+{
+    {
+        username = "Deity#1501",
+        avatar_url = "https://cdn.discordapp.com/avatars/748164832028655717/a_bebf8f9577f7e2697cd1db2ef820e325.webp",
+        content = "Testing.",
+        timestamp = "27/09/2022",
+    },
+}
