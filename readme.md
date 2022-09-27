@@ -33,7 +33,7 @@ The only supported method would be to provide a [`decoded`](https://luvit.io/api
     {
         username = "Deity#1501",
         avatar_url = "https://cdn.discordapp.com/avatars/748164832028655717/a_bebf8f9577f7e2697cd1db2ef820e325.webp",
-        content = "Testing.",
+        content = "Hello, world!",
         timestamp = "27/09/2022",
     },
 }
