@@ -16,3 +16,7 @@ local appender = require("discordia-appender")
 local append = appender.append
 ```
 
+Alternatively, you can just jump the gun and do:
+```lua
+local append = require("discordia-appender").append
+```
