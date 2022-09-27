@@ -6,7 +6,8 @@ Make sure that you have them downloaded properly before use, otherwise you may h
 
 To get started with using this [`lib`] you should:
 - Download this repositories [`master-zip`](https://github.com/saint-deity/discordia-appender/archive/refs/heads/main.zip)
-- Unzip the contents and delete the [`README.md`]
+- Unzip the contents and delete the [`README.md`](https://github.com/saint-deity/discordia-appender/blob/main/readme.md)
+- Place the [`discordia-appender`] file in your workspaces' `deps` folder.
 
 ### Setting it up
 Setting it up using [`require`](https://luvit.io/api/require.html) and fetching the [`append`](https://github.com/saint-deity/discordia-appender/blob/main/discordia-appender/init.lua) configuration are the first two steps toward using the now-ready appender.
