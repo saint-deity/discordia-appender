@@ -64,4 +64,4 @@ append:write("./file_path", data)
 ```
 
 ### Make sure to include your file name and file extension `(*HTML)` when using the `read()` and `write()` methods
-### Refer to the examples folder for reference and ideas
+### Refer to the [`examples`](https://github.com/saint-deity/discordia-appender/tree/main/examples) folder for reference and ideas
