@@ -4,10 +4,12 @@
 This library depends on the [`JSON`](https://luvit.io/api/json.html) and [`PrettyPrint`](https://luvit.io/api/pretty-print.html) [`luvit`](https://luvit.io/) libraries to run.
 Make sure that you have them downloaded properly before use, otherwise you may have some problems getting it to work.
 
-To get started with using this [`lib`] you should download this repositories [`master-zip`](https://github.com/saint-deity/discordia-appender/archive/refs/heads/main.zip)
+To get started with using this [`lib`] you should:
+- Download this repositories [`master-zip`](https://github.com/saint-deity/discordia-appender/archive/refs/heads/main.zip)
+- Unzip the contents 
 
 ### Setting it up
-Setting it up using [`require`](https://luvit.io/api/require.html) and fetching the `append` configuration are the first two steps toward using the now-ready appender.
+Setting it up using [`require`](https://luvit.io/api/require.html) and fetching the [`append`](https://github.com/saint-deity/discordia-appender/blob/main/discordia-appender/init.lua) configuration are the first two steps toward using the now-ready appender.
 ```lua
 local appender = require("discordia-appender")
 local append = appender.append
