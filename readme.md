@@ -40,4 +40,4 @@ The only supported method would be to provide a [`decoded`](https://luvit.io/api
 ```
 
 
-[image](https://cdn.discordapp.com/attachments/1021675456715563058/1024439017049174126/image.png)
+![image](https://cdn.discordapp.com/attachments/1021675456715563058/1024439017049174126/image.png)
