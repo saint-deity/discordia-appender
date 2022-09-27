@@ -41,7 +41,7 @@ The only supported method would be to provide a [`decoded`](https://luvit.io/api
 }
 ```
 
-If you're using a `JSON` document and want to avoid writing a few extra lines to read the files document, you use `read` method as shown below, which returns a [`decoded`] `JSON` table (refer to the table above for reference).
+If you're using a `JSON` document and want to avoid writing a few extra lines to read the files document, you use `read()` method as shown below, which returns a [`decoded`](https://luvit.io/api/json.html#json_json_decode_str_pos_nullval) `JSON` table (refer to the table above for reference).
 
 ```lua
 local data = append:read("./file_path")
@@ -50,15 +50,18 @@ local data = append:read("./file_path")
 
 ### Getting Your File
 
-You can generate your new document with the appended data with `write` method, as suggested below.
+You can generate your new document with the appended data with `write()` method, as suggested below.
 Note that the `data` variable reference can be found above (for those who skipped past it)
 
 ```lua
 append:write("./file_path", data)
 ```
 
-```CSS
-[ Make sure to include your file name and file extension (*HTML) when using the read and write methods ]
-``` 
+### Make sure to include your file name and file extension `(*HTML)` when using the `read()` and `write()` methods
+### Refer to the examples folder for reference and ideas
 
+
+### The Results
+
+Once you're done, and you've opened your new `HTML` file, the result should look something similar to this:
 ![image](https://cdn.discordapp.com/attachments/1021675456715563058/1024439017049174126/image.png)
