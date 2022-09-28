@@ -10,11 +10,13 @@ local print, color = prettyPrint.print, prettyPrint.colorize
 
 --// Read Files
 
-function append:read(file)
+local files = {}
+
+function files:read(file)
     local ret 
 
     if open(file, "r") then
-        local file = open(file, "r")
+        local file = io.open(file, "r")
         local content = file:read("*all")
         file:close()
     else
@@ -24,7 +26,7 @@ function append:read(file)
     return ret
 end
 
-function append:readJSON(file)
+function files:readJSON(file)
     local ret
 
     if open(file, "r") then
@@ -40,7 +42,7 @@ end
 
 --// Write Files
 
-function append:writeJSON(file, data)
+function files:writeJSON(file, data)
     local file = open(file, "w")
     file:write(stringify(data, {indent = true}))
     file:close()
@@ -48,10 +50,12 @@ function append:writeJSON(file, data)
     return true
 end
 
-function append:write(file, content)
+function files:write(file, content)
     local file = open(file, "w")
     file:write(content)
     file:close()
 
     return true
 end
+
+return files
