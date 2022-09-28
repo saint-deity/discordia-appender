@@ -1,6 +1,5 @@
 -- dependancies
 
-local json = require("json")
 local prettyPrint = require("pretty-print")
 
 -- keywords/shortcuts/overrides
@@ -157,20 +156,6 @@ return ret
     else
         return print(color("err", "[Appender]").." | ERR | type \"table\" expected (got "..type(data)..")")
     end
-end
-
-function append:read(file)
-    local file = open(file, "r")
-    local content = file:read("*all")
-    file:close()
-    return content
-end
-
-function append:write(file, content)
-    local file = open(file, "w")
-    file:write(content)
-    file:close()
-    
 end
 
 return append
