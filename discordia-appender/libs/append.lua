@@ -26,29 +26,29 @@ function append:sort(data)
         local sorted = { }
         
         for index, value in pairs(data) do
-            if not data[index].username then return print(color("err", "[Appender]").." | ERR | No username provided") end
-            if not data[index].avatar_url then return print(color("err", "[Appender]").." | ERR | No avatar URL provided") end
-            if not data[index].content then return print(color("err", "[Appender]").." | ERR | No content provided") end
-            if not data[index].timestamp then return print(color("err", "[Appender]").." | ERR | No timestamp provided") end
+            if not data[index]["username"] then return print(color("err", "[Appender]").." | ERR | No username provided") end
+            if not data[index]["avatar_url"] then return print(color("err", "[Appender]").." | ERR | No avatar URL provided") end
+            if not data[index]["content"] then return print(color("err", "[Appender]").." | ERR | No content provided") end
+            if not data[index]["timestamp"] then return print(color("err", "[Appender]").." | ERR | No timestamp provided") end
 
             local res = [[
             <div class="card">
                 <div style="display: inline-block; vertical-align: top;">
-                    <img src="]]..data[index].avatar_url..[[" alt="user icon" class="avatar" width="40px" height="40px">   
+                    <img src="]]..data[index]["avatar_url"]..[[" alt="user icon" class="avatar" width="40px" height="40px">   
                 </div>
         
                 <div style="color: white; position: relative; top: 0px; display: inline-block;">
                     <span style="font-size: small;">
-                        ]]..data[index].username..[[
+                        ]]..data[index]["username"]..[[
                         <span style="opacity: 20%;">
-                            ]]..data[index].timestamp..[[        
+                            ]]..data[index]["timestamp"]..[[        
                         </span>
                     </span>
 
                     <br>
 
                     <span style="font-size: medium;">
-                        ]]..data[index].content..[[
+                        ]]..data[index]["content"]..[[
 
                     </span>
                 </div>
