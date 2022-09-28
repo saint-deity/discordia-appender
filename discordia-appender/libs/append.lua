@@ -21,14 +21,7 @@ local append = { }
 
 function append:sort(data)
     prettyPrint.loadColors(256)
-    if data[1] then
-        print(data[1]["content"])
-    end
     if type(data) == "table" then
-        for i,v in pairs(data) do
-            print(i)
-        end
-
         local sorted = { }
         local sortedi = { }
 
@@ -62,7 +55,6 @@ function append:sort(data)
                 </div>
             </div>
 ]]
-            print(res)
             insert(sorted, #sorted+1, res)
         end
 
