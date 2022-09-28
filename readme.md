@@ -35,6 +35,8 @@ To use the shortcut `JSON` methods, you need to reference the [`files.lua`](), e
 This will allow you to use the `read()`, `write()`, `readJSON`, and `writeJSON` methods.
 Though this isn't necessary if you're already familiar with using luvits [`JSON`](https://luvit.io/api/json.html) or [`File System`](https://luvit.io/api/fs.html) libraries.
 
+In-depth definitions and examples [`here`](https://github.com/saint-deity/discordia-appender/wiki)
+
 ```lua
 local appender = require("discordia-appender")
 local json = appender.files
