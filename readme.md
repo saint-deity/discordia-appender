@@ -31,19 +31,19 @@ Alternatively, you can just jump the gun and do:
 local append = require("discordia-appender").append
 ```
 
-To use the shortcut `JSON` methods, you need to reference the [`JSON.lua`](), e.g.
+To use the shortcut `JSON` methods, you need to reference the [`files.lua`](), e.g.
 This will allow you to use the `read()`, `write()`, `readJSON`, and `writeJSON` methods.
 Though this isn't necessary if you're already familiar with using luvits [`JSON`](https://luvit.io/api/json.html) or [`File System`](https://luvit.io/api/fs.html) libraries.
 
 ```lua
 local appender = require("discordia-appender")
-local json = appender.json
+local json = appender.files
 ```
 
 Once again, you can skip the extra line, by doing:
 
 ```lua
-local json = require("discordia-appender").json
+local json = require("discordia-appender").files
 ```
 
 ### Providing Data
@@ -62,10 +62,10 @@ The only supported method would be to provide a [`decoded`](https://luvit.io/api
 ```
 
 If you're using a `JSON` document and want to avoid writing a few extra lines to read the files document, you use `read()` method as shown below, which returns a [`decoded`](https://luvit.io/api/json.html#json_json_decode_str_pos_nullval) `JSON` table (refer to the table above for reference).
-Make sure to [`require`](https://luvit.io/api/require.html) the [`JSON.lua`]() library, before use.
+Make sure to [`require`](https://luvit.io/api/require.html) the [`files.lua`]() library, before use.
 
 ```lua
-local data = json:readJSON("./file_path")
+local data = files:readJSON("./file_path")
 ```
 
 
@@ -75,7 +75,7 @@ You can generate your new document with the appended data with `write()` method,
 Note that the `data` variable reference can be found above (for those who skipped past it)
 
 ```lua
-json:write("./file_path", data)
+files:write("./file_path", data)
 ```
 
 ### Make sure to include your file name and file extension `(*HTML)` when using the `read()` and `write()` methods
