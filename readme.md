@@ -1,4 +1,4 @@
-### Want to contribute? Have some ideas? Share your ideas (here)(https://discord.gg/ZNJGq4c23K)!
+### Want to contribute? Have some ideas? Share your ideas [here](https://discord.gg/ZNJGq4c23K)
 ### The Results
 Once you've gone through all of the steps correctly, and opened your new `HTML` file, it should look something like;
 
