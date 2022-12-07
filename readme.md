@@ -1,4 +1,4 @@
-[![view - Documentation](https://img.shields.io/badge/view-Documentation-purple?style=for-the-badge)](/docs/ "Go to project documentation")<br /><br>
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-purple?style=for-the-badge)](https://github.com/saint-deity/discordia-appender/wiki "Go to project documentation")<br /><br>
 
 ### Want to contribute? Have some ideas? Share your ideas [here](https://discord.gg/ZNJGq4c23K)
 ### The Results
