@@ -1,3 +1,5 @@
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-purple?style=for-the-badge)](/docs/ "Go to project documentation")<br /><br>
+
 ### Want to contribute? Have some ideas? Share your ideas [here](https://discord.gg/ZNJGq4c23K)
 ### The Results
 Once you've gone through all of the steps correctly, and opened your new `HTML` file, it should look something like;
